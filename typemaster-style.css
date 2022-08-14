@@ -1,0 +1,62 @@
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 50em;
+}
+
+@media only screen and (min-width:900px){
+  .logo {
+    background-color: #F3791A;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    /* overflow:visible; */
+    /* word-wrap: break-word; */
+    /* text-align: center; */
+    /* padding:0;
+  margin:0; */
+  }
+}
+
+@media only screen and (max-width:900px){
+  .logo {
+    background-color: #F3791A;
+    color: white;
+    font-size: 8px;
+    height: 20px;
+    width: 20px;
+    /* overflow:visible; */
+    /* word-wrap: break-word; */
+    /* text-align: center; */
+    /* padding:0;
+  margin:0; */
+  }
+}
+
+p {
+  margin: 0;
+  text-align: left;
+}
+
+.head-preorder {
+  background-color: #EAEAF1;
+  /* position: relative; */
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* text-align: center; */
+  margin-top: 10px;
+}
+
+.head-preorder:hover {
+  color: white;
+  background-color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
