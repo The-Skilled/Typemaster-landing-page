@@ -1,5 +1,7 @@
 body {
   font-family: "Barlow", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .header {
@@ -27,7 +29,7 @@ body {
   }
 
 
-p {
+.tm{
   margin: 0;
   text-align: left;
 }
@@ -46,4 +48,60 @@ p {
   color: white;
   background-color: hsl(223, 47%, 23%);
   cursor: pointer;
+}
+
+.middle{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  overflow:visible;
+  margin-top:80px;
+}
+
+.head{
+  font-size: 50px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  line-height: 1;
+}
+
+.subtitle{
+  font-family: sans-serif;
+  color: hsl(224, 23%, 55%);
+}
+
+.keyboard{
+  justify-self: end;
+}
+
+.keyb-img{
+  width:50vh;
+  width:50vh;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bottom-preorder{
+  background-color: #F3791A;
+  color:white;
+  padding:20px;
+  margin:10px;
+  /* height:50px;
+  width:100px; */
+  font-weight: 700;
+  font-size: 15px;
+  border-radius:10px;
+  border:0;
+}
+
+.bottom-preorder:hover{
+  background-color: #F9A360;
+  cursor: pointer;
+}
+
+.release{
+  color:grey;
+  font-weight: 700;
+  display: inline-block;
+  margin-left: 30px;
 }
