@@ -1,17 +1,19 @@
 body {
   font-family: "Barlow", sans-serif;
-  
 }
 
 .header {
   display: grid;
+  /* grid-template-columns: repeat(2, auto); */
   grid-template-columns: 1fr auto;
+  /* justify-content: space-around; */
   align-items: center;
   column-gap: 50px;
+  overflow:visible;
 }
 
 
-.logo 
+.logo {
     background-color: #F3791A;
     color: white;
     font-size: 15px;
@@ -23,6 +25,7 @@ body {
     /* padding:0;
   margin:0; */
   }
+
 
 p {
   margin: 0;
